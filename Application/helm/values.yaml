@@ -2,8 +2,8 @@ ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/guneliya/workshop:v2.0.0'
-  tag: 'base'
+  image: 'quay.io/guneliya/workshop'
+  tag: 'v2.0.0'
 
 service:
   servicePort: 8080
