@@ -24,7 +24,7 @@ spec:
               protocol: TCP
           imagePullPolicy: IfNotPresent
 # Update with the image you build in part 1
-          image: 'quay.io/guneliya/workshop:1.0.0'
+          image: 'quay.io/guneliya/workshop:v1.0.0'
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
   strategy:
